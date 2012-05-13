@@ -1,0 +1,20 @@
+{
+  "author": "Jackson Tian <shyvo1987@gmail.com> (https://github.com/JacksonTian)",
+  "name": "limitedmap",
+  "description": "The limited map, for avoid memory leak issue.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/JacksonTian/limitedmap",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JacksonTian/limitedmap.git"
+  },
+  "main": "limitedmap.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
