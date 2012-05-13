@@ -1,10 +1,10 @@
-var LimitedMap = function (limit) {
+var LimitableMap = function (limit) {
   this.limit = limit || 10;
   this.map = {};
   this.keys = [];
 };
 
-LimitedMap.prototype.set = function (key, value) {
+LimitableMap.prototype.set = function (key, value) {
   var map = this.map;
   var keys = this.keys;
   if (!map.hasOwnProperty(key)) {
@@ -17,8 +17,8 @@ LimitedMap.prototype.set = function (key, value) {
   map[key] = value;
 };
 
-LimitedMap.prototype.get = function (key) {
+LimitableMap.prototype.get = function (key) {
   return this.map[key];
 };
 
-module.exports = LimitedMap;
+module.exports = LimitableMap;

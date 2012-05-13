@@ -1,4 +1,4 @@
-limitedmap
-==========
+Limitable Map
+==================
 
-The limited map, for avoid memory leak issue.
+The limitable map, for avoid memory leak issue.
