@@ -35,4 +35,11 @@ describe("Limitable Map", function () {
     Object.keys(cache.map).should.have.length(5);
     (cache.get("key5") === undefined).should.be.ok;
   });
+
+  it('should set correctly when set hasOwnProperty', function () {
+    cache.set("hasOwnProperty", "hasOwnProperty");
+    (function(){
+      cache.set("whatever", "whatever");
+    }).should.not.throw();
+  });
 });
