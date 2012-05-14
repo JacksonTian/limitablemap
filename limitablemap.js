@@ -4,10 +4,12 @@ var LimitableMap = function (limit) {
   this.keys = [];
 };
 
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+
 LimitableMap.prototype.set = function (key, value) {
   var map = this.map;
   var keys = this.keys;
-  if (!map.hasOwnProperty(key)) {
+  if (!hasOwnProperty.call(map, key)) {
     if (keys.length === this.limit) {
       var firstKey = keys.shift();
       delete map[firstKey];
