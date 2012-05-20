@@ -3,12 +3,12 @@
   "name": "limitablemap",
   "description": "The limitable map, for avoid memory leak issue.",
   "version": "0.0.1",
-  "homepage": "https://github.com/JacksonTian/limitedmap",
+  "homepage": "https://github.com/JacksonTian/limitablemap",
   "repository": {
     "type": "git",
-    "url": "git://github.com/JacksonTian/limitedmap.git"
+    "url": "git://github.com/JacksonTian/limitablemap.git"
   },
-  "main": "limitedmap.js",
+  "main": "limitablemap.js",
   "dependencies": {},
   "devDependencies": {
     "mocha": "*"
