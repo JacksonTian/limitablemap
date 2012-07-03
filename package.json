@@ -2,7 +2,7 @@
   "author": "Jackson Tian <shyvo1987@gmail.com> (https://github.com/JacksonTian)",
   "name": "limitablemap",
   "description": "The limitable map, for avoid memory leak issue.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/JacksonTian/limitablemap",
   "repository": {
     "type": "git",
